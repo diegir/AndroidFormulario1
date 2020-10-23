@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Proyecto1</string>
+    <string name="nombre">Nombre Completo</string>
+    <string name="telefono">Telefono</string>
+    <string name="email">Email</string>
+    <string name="descripcion">Descripción Contacto</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="nombrecompleto">Juan Pérez</string>
+    <string name="fechanaci">Fecha Nacimiento: 12/09/1990</string>
+    <string name="telefonod">Tel. 5555 5555</string>
+    <string name="emaildato">Email: prueba@hotmail.com</string>
+    <string name="Descripciond">Descripcion: Me llamo Juan</string>
+</resources>

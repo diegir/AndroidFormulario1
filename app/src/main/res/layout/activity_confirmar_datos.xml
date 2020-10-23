@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConfirmarDatos">
+
+    <TextView
+        android:id="@+id/confirmardatos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/margintop"
+        android:text="Confirmar Datos"
+        />
+
+    <TextView
+        android:id="@+id/cnombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nombrecompleto"
+        android:layout_marginVertical="@dimen/relativo10"
+        android:layout_marginLeft="@dimen/margintop"
+        android:layout_below="@id/confirmardatos"
+        />
+
+    <TextView
+        android:id="@+id/cfechanac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fechanaci"
+        android:layout_marginVertical="@dimen/relativo10"
+        android:layout_marginLeft="@dimen/margintop"
+        android:layout_below="@id/cnombre"
+        />
+
+    <TextView
+        android:id="@+id/ctelefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/telefonod"
+        android:layout_marginVertical="@dimen/relativo10"
+        android:layout_marginLeft="@dimen/margintop"
+        android:layout_below="@id/cfechanac"
+        />
+
+    <TextView
+        android:id="@+id/cemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/emaildato"
+        android:layout_marginVertical="@dimen/relativo10"
+        android:layout_marginLeft="@dimen/margintop"
+        android:layout_below="@id/ctelefono"
+        />
+
+    <TextView
+        android:id="@+id/cdescripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Descripciond"
+        android:layout_marginVertical="@dimen/relativo10"
+        android:layout_marginLeft="@dimen/margintop"
+        android:layout_below="@id/cemail"
+        />
+
+    <Button
+        android:id="@+id/ceditar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cdescripcion"
+        android:layout_margin="@dimen/margin40"
+        android:layout_centerHorizontal="true"
+        android:text="Editar Datos"
+        />
+
+</RelativeLayout>

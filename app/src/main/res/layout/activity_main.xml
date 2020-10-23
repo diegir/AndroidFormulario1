@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/xdatos"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toperelative">
+
+
+        <EditText
+            android:id="@+id/xnombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/margintop"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/nombre"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/xfechanac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:layout_below="@id/xnombre"
+            android:layout_marginTop="@dimen/margintop"
+            android:hint="Fecha Nacimiento"
+            />
+
+        <EditText
+            android:id="@+id/xtelefono"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/xfechanac"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/margintop"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/telefono"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/xemail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/xtelefono"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/margintop"
+            android:ems="10"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/xdescripcion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/xemail"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/margintop"
+            android:ems="10"
+            android:hint="@string/descripcion"
+            android:inputType="textLongMessage" />
+
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/xenviar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/xdatos"
+        android:text="@string/siguiente"/>
+
+
+</RelativeLayout>
